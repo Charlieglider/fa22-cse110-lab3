@@ -132,3 +132,43 @@ display: inline;
     background-color: olive;
   }
 }
+ 
+ #header {
+   color: purple;
+ }
+ 
+ * {
+  color: green;
+ }
+ 
+ a[title] {
+  color: purple;
+}
+ 
+ 
+ li {
+  list-style-type: disc;
+}
+
+li li {
+  list-style-type: circle;
+}
+ 
+ span {
+  background-color: aqua;
+}
+
+div > span {
+  background-color: yellow;
+}
+ 
+ p ~ span {
+  color: red;
+}
+ 
+ li:first-of-type + li {
+  color: red;
+}
+ 
+ #one.two { color: red; }
+
